@@ -5,19 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google CSSI</title>
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <div class="slideshow">
-    <div class="slide slide-alt">
-      <img src="" alt="">
-      <div class="content">
-        <h1>Your journey in Computer Science starts here at the MEC Google CSSI program</h1>
-        <p></p>
-      </div>
-    </div>
+  <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+
+    <img class=slidimg id=1 src="images/img1.jpg" >
+    <div class="text">At Google Headquarters</div>
   </div>
+
+  <div class="mySlides fade">
+
+    <img class=slidimg id=2 src="images/img2.jpg" >
+    <div class="text">The bois working on our first web project</div>
+  </div>
+
+  <div class="mySlides id=3 fade">
+    <img class=slidimg  src="images/img3.jpg" >
+    <div class="text">This is Sean</div>
+  </div>
+
+  <div id=4  class="mySlides fade">
+    <img class=slidimg  src="images/img4.JPG" >
+    <div class="text">Me and the bois in a group photo</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+
+
+</div>
+
+        
+          <h1 id=quote>Your journey in Computer Science starts here at the MEC Google CSSI program</h1>
+        
+
+          <div>
+            
+
+
+          </div>
+     
+
+
+        
+
+
+      <script src="script.js"></script>
 </body>
 </html>
 
